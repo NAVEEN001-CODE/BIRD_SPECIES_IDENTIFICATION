@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WingSpotter - Identify Birds with AI</title>
+    <link rel="stylesheet" href="birds.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">🐦 WingSpotter</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Species</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Identify Birds with AI</h1>
+        <p>Upload a photo of a bird and our advanced recognition system will help you identify the species.</p>
+
+        <div class="upload-box">
+            <div class="upload-icon">☁️</div>
+            <p><strong>Upload Bird Photo</strong></p>
+            <p class="small">Drag & drop your image here or click to browse</p>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <input type="file" id="fileUpload" name="bird_photo" accept=".jpg,.jpeg,.png" hidden>
+                <button type="button" class="upload-btn" onclick="document.getElementById('fileUpload').click()">Select File</button>
+                <p class="small">Supports JPG, PNG (Max 5MB)</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="icon">📷</div>
+                <h3>1. Upload Photo</h3>
+                <p>Take or upload a clear photo of the bird you want to identify.</p>
+            </div>
+            <div class="step">
+                <div class="icon">🔍</div>
+                <h3>2. AI Analysis</h3>
+                <p>Our system analyzes visual features to identify the species.</p>
+            </div>
+            <div class="step">
+                <div class="icon">📄</div>
+                <h3>3. Get Results</h3>
+                <p>Receive detailed information about the identified bird species.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-col">
+                <h4>🐦 WingSpotter</h4>
+                <p>Helping bird enthusiasts identify and learn about birds through AI technology.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Species Database</a></li>
+                    <li><a href="#">Birding Tips</a></li>
+                    <li><a href="#">Conservation</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Field Guide</a></li>
+                    <li><a href="#">Bird Sounds</a></li>
+                    <li><a href="#">Migration Maps</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <div class="socials">
+                    <a href="#">🌐</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📷</a>
+                </div>
+                <p>support@wingspotter.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2023 WingSpotter. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>

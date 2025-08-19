@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #f7fbff;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.navbar .logo {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar nav a:hover {
+    color: #1d77d3;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    color: #555;
+    max-width: 500px;
+    margin: 0 auto 2rem;
+}
+
+.upload-box {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 320px;
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.upload-icon {
+    font-size: 2rem;
+}
+
+.upload-btn {
+    background: #1d77d3;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.upload-btn:hover {
+    background: #145ca2;
+}
+
+.small {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* How It Works */
+.how-it-works {
+    background: #eaf5ff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    margin-bottom: 1.5rem;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.step {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.step .icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    margin-top: 2rem;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.footer-col h4 {
+    margin-bottom: 0.5rem;
+}
+
+.footer-col p, .footer-col a {
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+.footer-col a {
+    text-decoration: none;
+}
+
+.footer-col a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 1rem;
+    background: #111;
+}
+
+.socials a {
+    margin-right: 8px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}

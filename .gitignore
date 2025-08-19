@@ -1,0 +1,21 @@
+# Ignore dataset and large data folders
+CUB_200_2011/
+segmentations/
+dataset/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+*.h5
