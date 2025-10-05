@@ -128,7 +128,7 @@ Then open your browser and visit:
 ## 👨‍💻 Author
 **Naveen S**  
 Mini Project – Department of Computer Science  
-Guided by **Dr. Reena Murali**
+Guided by **Dr. Sangeetha Jose**
 
 ---
 
